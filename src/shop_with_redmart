@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script type="text/javascript"> 
 var image = '<a href="https://redmart.com/marketplace/realfood"> <img style= "position:fixed; bottom:0; right:0; height:50px; width:50px;" src="http://apk-dl.com/detail/image/com.redmart.redmart-w250.png" alt="Check_us_out_on_Redmart"> </a>';
-document.write(image);
-</script>
+document.write(image); // Image is an icon of redmart for now until the new design is made
+</script> 
