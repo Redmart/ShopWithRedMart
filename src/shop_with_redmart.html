@@ -1,6 +1,16 @@
-<script type="text/javascript" src="http://shopwithredmart.herokuapp.com/swr-js.js"></script>
-<script type="text/javascript">
-  new ShopWithRedmart().init({ <!-- Calls the iframe from shop_with_redmart.js and places url below into options.url -->
-    url: 'https://redmart.com/marketplace/YOUR-URL-HERE' 
-  });
+<html>
+<head>
+<title>SWR_img</title>
+</head>
+<body>
+<a id='imageLink' href="https://redmart.com/marketplace" target="_blank">
+  <img style="position:absolute;height:50px; width:50px;" src="http://apk-dl.com/detail/image/com.redmart.redmart-w250.png" alt="Check_us_out_on_Redmart">
+</a>
+
+<script>
+var imageLink = document.getElementById('imageLink'),
+    urlParam = location.href.split('url=')[1];
+imageLink.setAttribute('href', urlParam);
 </script>
+</body>
+</html>
